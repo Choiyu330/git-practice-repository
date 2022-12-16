@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String Test() {
-        return "To do Application ! ";
+        return "To do Application !";
     }
 }
